@@ -12,7 +12,7 @@ body{
 }
 .imagem{       /*extrutura DIV */
     display: flex;
-    justify-content: 0;
+    justify-content: center;
 }
 .imagem img{    /* img src Foto do Avatar */
     width: 170px;
