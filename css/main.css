@@ -1,6 +1,6 @@
 /* reset p/ navegador */
 * {
-    margin: 0  0  0  0; /* TOP RIGTH BOTTOM LEET */
+    margin: 0; /* TOP RIGTH BOTTOM LEET */
     padding: 0;
 }
 body{
@@ -8,7 +8,8 @@ body{
     height: 100%; /*altura */
     display: flex;
     justify-content: center;
-    background-color: aquamarine;
+    background: linear-gradient(#75e0fb, #bbb9b4);
+    background-repeat: no-repeat;
 }
 .imagem{       /*extrutura DIV */
     display: flex;
@@ -28,3 +29,33 @@ body{
     color: rgb rgb(55, 0, 255); /* Cor para texto */
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.redes-sociais{
+    margin-top: 10px;    /*margem Superior  */
+    justify-content: center;    /*centralizar texto*/
+    align-items:center;
+    /* background: red; */ 
+}
+
+.icone, .email{
+    height: 35px;
+    width: 35px;
+    border-radius: 30px;
+    transition: all 0.3s ease-out;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 1);
+    margin: 5px;
+    overflow: hidden;   /*efeito mascara */
+}
+.icone, .email i {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    font-size: 20px;  /*22*/
+    border-radius: 30px;
+    background-color: azure;
+    color: blue;  /*cor do texto*/
+    cursor: pointer;
+}
+
