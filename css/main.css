@@ -29,14 +29,16 @@ body{
     color: rgb rgb(55, 0, 255); /* Cor para texto */
     font-family: Arial, Helvetica, sans-serif;
 }
-
 .redes-sociais{
     margin-top: 10px;    /*margem Superior  */
     justify-content: center;    /*centralizar texto*/
     align-items:center;
+    display: flex;
     /* background: red; */ 
 }
-
+.redes-sociais a{
+    text-decoration: none;
+}
 .icone, .email{
     height: 35px;
     width: 35px;
@@ -58,4 +60,89 @@ body{
     color: blue;  /*cor do texto*/
     cursor: pointer;
 }
+.icon span a{
+    list-style: none;
+    font-family: 'Metal Mania', cursive;
+    float: right;
+    margin-right: 23px;
+    font-weight: 100;
+    color: #4d8cf9;
+    line-height: 35px;
+    font-size: 17px;
+}
+.nome-icon {
+    font-family: 'Metal Mania', cursive;
+    margin-right: 40px;
+    float: right;
+    color: #f2f2f2;
+    font-weight: 100;
+    line-height: 35px;
+    font-size: 17px;
+}
+.icon:hover {
+    width: 125px;
+    background-color: rgb(226, 225, 224);
+    border-radius: 20
+}
+.texto{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 30px;
+    font-family: 'Victor Mono', monospace;
+    font-size: 20px;
+    text-align: justify;
+    width: 700px;
+    height: 200px;
+    padding: 50px;
+    border-radius: 24px;
+    color: rgb(237, 233, 233);
+    background: rgb(3, 26, 62);
+    overflow: hidden;
+    box-shadow: 0 3px 3px rgba(0,0,0,.1);
+}
+.sobre-mim{
+    position: absolute;
+    top: 10px; /* move o topo do h2 para o centro vertical */
+    /* para valores em porcentagem - transform: ;*/
+    display: flex;
+    color: whitesmoke;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-size: 30px;
+    line-height: 35px;
+
+}
+.linguagem{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    font-size: 30px;
+    color: #4d8cf9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.projetos{
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+.projetos img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 270px;
+    box-shadow: 2px 2px 2px black;
+}
+
+
+
+
+
+
+
+
+
 
